@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Nav from './components/nav';
+import Footer from './components/footer';
+import './scss/styles.scss';
 
-function App() {
+export default function App(props) {
   return (
     <div className="App">
-      
+    <Nav />
+    {props.children}
+    <Footer />
     </div>
   );
 }
-
-export default App;
