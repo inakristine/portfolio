@@ -13,8 +13,11 @@ const Home = (props) => {
                 <p className='home__responsive'><b>Responsive:</b>{responsive}</p>
                 <p className='home__time'><b>Time:</b>{time}</p>
 
-                <link className='home__joblink' src={jobSpecific}></link>
-                <link className='home__gitlink' src={git}></link>
+                
+                <div className='divider__colored--short'></div>
+                <a className='home__gitlink' href={git}>Go to GitHub</a>
+                <a className='home__joblink' href={jobSpecific}>Go to site</a>
+                <div className='divider__colored--short'></div>
             </div>
         </div>
     )

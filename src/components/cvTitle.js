@@ -8,6 +8,7 @@ const cvTitle = (props) => {
         <p className='cv__title--when'>{when}</p>
         <p className='cv__title--what'>{what}</p>
         <p className='cv__title--where'>{where}</p>
+        <div className='divider__colored--long'></div>
         </div>
     )
 }
