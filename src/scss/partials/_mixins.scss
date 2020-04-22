@@ -1,0 +1,29 @@
+@mixin title-font{
+    font-family: arno-pro-display, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2.1em;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+@mixin paragraph-font{
+    font-family: casablanca-urw, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.15em;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+@mixin link-font{
+    font-family: arno-pro-display, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2.2em;
+    text-decoration: none;
+    font-size: 1.4em;
+    color: white;
+}

@@ -1,4 +1,5 @@
 @import './variables';
+@import './mixins';
 
 *{
     box-sizing: border-box;
@@ -6,7 +7,6 @@
 
 html{
     background-color: black;
-    color: white;
     background-image: url("../../images/Background-1200px.png");
     background-repeat: repeat-y;
     background-size: 100%;
@@ -21,21 +21,11 @@ body{
 }
 
 p{
-    font-family: casablanca-urw, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 1.15em;
-    margin: 0;
-    padding: 0;
+    @include paragraph-font;
 }
-H1{
-    font-family: arno-pro-display, serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 2.2em;
-    margin: 0;
-    padding: 0;
 
+H1{
+    @include title-font;
 }
 
 .divider{
