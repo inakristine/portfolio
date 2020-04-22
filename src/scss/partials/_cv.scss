@@ -1,0 +1,43 @@
+.cv{
+    margin-top: 5px;
+    display: grid;
+    text-align: left;
+    &__content-when{
+        grid-column-start: col-start 0;
+        text-align: left;
+        width: 200px;
+        padding-left: 5px;
+    }
+    &__content-what{
+        grid-column-start: col-start 1;
+        text-align: left;
+        width: 220px;
+    }
+    &__content-where{
+        grid-column-start: col-start 2;
+        text-align: left;
+        width: 180px;
+    }
+    &{
+        &__title{
+            margin-top: 3em;
+            display: grid;
+        }
+    }
+    &__title-when{
+        grid-column-start: col-start 0;
+        text-align: left;
+        width: 200px;
+        padding-left: 5px;
+    }
+    &__title-what{
+        grid-column-start: col-start 1;
+        text-align: left;
+        width: 220px;
+    }
+    &__title-where{
+        grid-column-start: col-start 2;
+        text-align: left;
+        width: 180px;
+    }
+}

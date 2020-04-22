@@ -1,0 +1,59 @@
+@import './variables';
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    background-color: black;
+    color: white;
+    background-image: url("../../images/Background-1200px.png");
+    background-repeat: repeat-y;
+    background-size: 100%;
+    
+}
+
+body{
+    width: 600px;
+    min-width: 400px;
+    margin: 40px auto;
+    margin-bottom: 150px;
+}
+
+p{
+    font-family: casablanca-urw, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.15em;
+    margin: 0;
+    padding: 0;
+}
+H1{
+    font-family: arno-pro-display, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2.2em;
+    margin: 0;
+    padding: 0;
+
+}
+
+.divider{
+    height: 8px;
+    &__semilong{
+            height: 2px;
+            width: 75%;
+            float: right;
+            background-color: #235859;
+    }
+    &__long{
+        height: 2px;
+        width: 100%;
+        float: right;
+        background-color: #235859;
+        margin-top: 0,5em;
+        margin-bottom: 1em;
+        grid-column: 1 / span 3;
+ 
+}
+}

@@ -1,0 +1,40 @@
+@import url("https://use.typekit.net/ncy3vol.css");
+
+
+.navbar{
+    height: 45px;
+    &__logo{
+        float: left;
+        width:18%;
+        margin-right: 7%;
+    }
+    &__linkContainer{
+        padding-top: 10px;
+    }
+    &__link{
+        color: white;
+        font-family: arno-pro-display, serif;
+        font-weight: 300;
+        font-style: normal;
+        text-decoration: none;
+        font-size: 1.4em;
+        padding-right: 3.8em;
+        &:hover{
+            color: #6dccc5;
+        }
+       
+    }
+    &__link-right{
+        color: white;
+        font-family: arno-pro-display, serif;
+        font-weight: 300;
+        font-style: normal;
+        text-decoration: none;
+        font-size: 1.4em;
+        padding-right: 0;
+        &:hover{
+            color: #6dccc5;
+        }
+        
+    }
+}

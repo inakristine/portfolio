@@ -4,12 +4,20 @@ const cvTitle = (props) => {
     const { when, what, where } = props;
 
     return (
-        <div className='cv'>
-        <p className='cv__title--when'>{when}</p>
-        <p className='cv__title--what'>{what}</p>
-        <p className='cv__title--where'>{where}</p>
-        <div className='divider__colored--long'></div>
+        <div className='cv__title'>
+        <div className='cv__title-when'>
+        <h1 className='cv__title-text'>{when}</h1>
         </div>
+        <div className='cv__title-what'>
+        <h1 className='cv__title-text'>{what}</h1>
+        </div>
+        <div className='cv__title-where'>
+        <h1 className='cv__title-text'>{where}</h1>
+        
+        </div>
+        <div className='divider__long'></div>
+        </div>
+        
     )
 }
 
