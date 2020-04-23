@@ -1,4 +1,3 @@
-@import url("https://use.typekit.net/ncy3vol.css");
 @import './variables';
 @import './mixins';
 
@@ -10,22 +9,17 @@
         margin-right: 7%;
     }
     &__linkContainer{
-        padding-top: 10px;
+        padding-top: 20px;
+        margin-bottom: 10px;
     }
     &__link{
         @include link-font;
-        padding-right: 3.8em;
-        &:hover{
-            color: $hover-color;
-        }
-       
+        padding-right: 5.9em;
+        padding-left: 4px;
     }
     &__link-right{
         @include link-font;
         padding-right: 0;
-        &:hover{
-            color: $hover-color;
-        }
         
     }
 }

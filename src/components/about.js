@@ -5,9 +5,9 @@ const about = (props) => {
 
     return (
         <div className='about'>
-        <p className='about'>{when}</p>
-        <p className='about'>{what}</p>
-        <p className='about'>{where}</p>
+            <p className='about'>{when}</p>
+            <p className='about'>{what}</p>
+            <p className='about'>{where}</p>
         </div>
     )
 }

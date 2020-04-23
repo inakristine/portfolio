@@ -10,11 +10,10 @@ html{
     background-image: url("../../images/Background-1200px.png");
     background-repeat: repeat-y;
     background-size: 100%;
-    
 }
 
 body{
-    width: 600px;
+    width: 800px;
     min-width: 400px;
     margin: 40px auto;
     margin-bottom: 150px;
@@ -28,19 +27,28 @@ H1{
     @include title-font;
 }
 
-.divider{
-    height: 8px;
+H2{
+    @include smallTitle-font;
+}
+
+.divider{    
+    &__short{
+        background-color: $accent-color;
+            height: 2px;
+            width: 100%;
+            float: right;
+    }
     &__semilong{
+        background-color: $accent-color;
             height: 2px;
             width: 75%;
             float: right;
-            background-color: #235859;
     }
     &__long{
+        background-color: $accent-color;
         height: 2px;
         width: 100%;
         float: right;
-        background-color: #235859;
         margin-top: 0,5em;
         margin-bottom: 1em;
         grid-column: 1 / span 3;

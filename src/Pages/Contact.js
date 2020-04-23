@@ -67,7 +67,7 @@ export default function ContactSpecific() {
                         onChange={HandleChange}
                     />
                     <p className={(lastName === '') ? 'error' : 'error__hide'}>Please enter a last name</p>
-                   
+
 
                     <p>Enter your email adress</p>
                     <input type='text'

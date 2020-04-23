@@ -6,7 +6,7 @@ const navigation = (props) => {
   console.log(props);
   return (
     <nav className='navbar'>
-      <img  className='navbar__logo' src={Logo} alt='My portfolio logo with my name, Ina K. Thoresen'></img>
+      <img className='navbar__logo' src={Logo} alt='My portfolio logo with my name, Ina K. Thoresen'></img>
       <div className='navbar__linkContainer'>
         <div className='divider__semilong'></div>
         <Link className='navbar__link' to='/'>Home</Link>
