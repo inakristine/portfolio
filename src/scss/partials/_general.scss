@@ -31,6 +31,18 @@ H2{
     @include smallTitle-font;
 }
 
+h3{
+    @include tinyTitle-font;
+}
+
+input{
+    @include input-styling;
+}
+
+textarea{
+    @include textarea-styling;
+}
+
 .divider{    
     &__short{
         background-color: $accent-color;
