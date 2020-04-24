@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-import HomeTitle from '../components/homeTitles';
+import HomeTitle from '../components/generalTitle';
 
 export default function ContactSpecific() {
     let [success, setSuccess] = useState(false);

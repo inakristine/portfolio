@@ -1,6 +1,6 @@
 import React from 'react';
 import Home from '../components/home';
-import HomeTitle from '../components/homeTitles';
+import HomeTitle from '../components/generalTitle';
 
 import skytsdjevelen from '../images/Skutsdjevelen-500.png';
 import wallclimber from '../images/Wallclimbers-500.png';

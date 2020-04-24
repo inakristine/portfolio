@@ -1,6 +1,6 @@
 import React from 'react';
 
-const homeTitle = (props) => {
+const generalTitle = (props) => {
     const { theme } = props;
 
     return (
@@ -15,4 +15,4 @@ const homeTitle = (props) => {
     )
 }
 
-export default homeTitle;
+export default generalTitle;

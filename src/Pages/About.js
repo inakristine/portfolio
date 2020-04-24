@@ -1,11 +1,26 @@
 import React from 'react';
-import About from '../components/about'
+import HomeTitle from '../components/generalTitle';
 
-export default function home(props) {
+export default function contact(props) {
+
 
   return (
     <div>
-      <About />
+    <HomeTitle theme='About me:' />
+    <conactCard />
+      
+    <HomeTitle theme='My key skills:' />
+    
+    <HomeTitle theme='Something Personal:' />
+    
+    <HomeTitle theme='Strong sides:' />
+      
+    <HomeTitle theme='My aspirations:' />
+
+
+
     </div>
   );
 }
+
+
