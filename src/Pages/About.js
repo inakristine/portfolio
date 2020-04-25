@@ -2,6 +2,7 @@ import React from 'react';
 import HomeTitle from '../components/generalTitle';
 import Card from '../components/contactCard';
 import Paragraph from '../components/paragraph';
+import myPortrait from '../images/ina.jpg';
 
 export default function contact(props) {
 
@@ -9,7 +10,10 @@ export default function contact(props) {
   return (
     <div>
     <HomeTitle theme='About me:' />
-    <Card />
+    <Card picture={myPortrait}
+    name='Ina Kristine Thoresen'
+    family='Husbond and three children'
+    location='Oslo, Norway' />
       
     <HomeTitle theme='My key skills:' />
     <Paragraph text='• Vocational education in both graphic design and frontend developmen' />

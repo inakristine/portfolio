@@ -7,18 +7,12 @@ const conactCard = (props) => {
         <div className='card'>
             <img className='card__picture' src={picture} alt={imgDescription}></img>
             <div className='card__text'>
-                <p classname='card__text'><b>Name: </b>{name}</p>
-                <p className='card__text'><b>Family: </b>{family}</p>
-                <p className='card__text'><b>Location: </b>{location}</p>
-
-
-            </div>
-            <div className='card__links'>
-                <div className='divider__short'></div>
-                <a className='card__gitlink' href={git}>Go to GitHub</a>
-                <a className='card__joblink' href={jobSpecific}>Go to site</a>
+                <p classname='card__text--first'><b>Name: </b>{name}</p>
+                <p className='card__text--middle'><b>Family: </b>{family}</p>
+                <p className='card__text--last'><b>Location: </b>{location}</p>
                 <div className='divider__short'></div>
             </div>
+            
         </div>
     )
 }
