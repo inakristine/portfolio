@@ -43,6 +43,12 @@ textarea{
     @include textarea-styling;
 }
 
+.paragraph{
+    margin-bottom: 10px;
+    margin-right: 3px;
+    text-align: justify;
+}
+
 .divider{    
     &__short{
         background-color: $accent-color;
