@@ -20,7 +20,7 @@ export default function home(props) {
         picture={skytsdjevelen}
         imgDescription='This page precents a criminal novel written by Kent Andersen'
         jobtitle='Skytsdjevelen'
-        task='To make a single page promotion site for a criminal novel'
+        task='To make a single page book-promotion site for "Fair Forlag", the publisher of a criminal novel'
         description='The page should have a design that makes new readers interested in the book.'
         responsive='Yes'
         time='1 week'
@@ -45,7 +45,7 @@ export default function home(props) {
         imgDescription='Semester project 3rd semester'
         jobtitle='Home Fair'
         task='Pitch design for costumer, whileimplementing screen size relative images.'
-        description='The costumer is bilding a sitee ti evaluate and compare realestate agents.r'
+        description='The costumer is building a sitee to evaluate and compare realestate agents with AI.'
         responsive='Yes'
         time='1 week'
         jobSpecific='https://framenden.no/Semester-Project_Ina_Dec-2019/'
@@ -66,35 +66,35 @@ export default function home(props) {
 
       <Home
         picture={recycle}
-        imgDescription='Semester project 3rd semester'
-        jobtitle='Wallclimbers Challenge'
-        task='Boardgame created in HTML with Vanilla JavaScript. All design and code was part of the task.'
-        description='Semester project 3rd semester'
-        responsive='No'
-        time='5 weeks'
-        jobSpecific='https://framenden.no/Semester-Project_Ina_Dec-2019/'
+        imgDescription='Site for enviromeental friendli bike sightseeings'
+        jobtitle='Re-cycle'
+        task='HTML and CSS practice.'
+        description='course assignement'
+        responsive='Yes'
+        time='1 week'
+        jobSpecific='https://framenden.no/2018-11-05-web&CSS1_CA_Ina_Thoresen_fp/'
         git='' />
 
       <Home
         picture={unStudents}
-        imgDescription='Semester project 3rd semester'
-        jobtitle='Wallclimbers Challenge'
-        task='Boardgame created in HTML with Vanilla JavaScript. All design and code was part of the task.'
-        description='Semester project 3rd semester'
-        responsive='No'
-        time='5 weeks'
-        jobSpecific='https://framenden.no/Semester-Project_Ina_Dec-2019/'
+        imgDescription='Semester project 1st semester'
+        jobtitle='UN-students'
+        task='Pitch design for costumer.'
+        description='Semester project 1st semester'
+        responsive='yes'
+        time='4 weeks'
+        jobSpecific='https://framenden.no/2018-12-14-FN/'
         git='' />
 
       <Home
         picture={hubble}
         imgDescription='Semester project 3rd semester'
-        jobtitle='Wallclimbers Challenge'
-        task='Boardgame created in HTML with Vanilla JavaScript. All design and code was part of the task.'
-        description='Semester project 3rd semester'
-        responsive='No'
-        time='5 weeks'
-        jobSpecific='https://framenden.no/Semester-Project_Ina_Dec-2019/'
+        jobtitle='Hubble space telescope'
+        task='Make a space related page with some vanilla JS, at least one API call and a timeline.'
+        description='Semester project 2nd semester'
+        responsive='yes'
+        time='3 weeks'
+        jobSpecific='https://framenden.no/Hubble/'
         git='' />
 
 
