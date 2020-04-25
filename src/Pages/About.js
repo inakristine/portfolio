@@ -13,7 +13,8 @@ export default function contact(props) {
     <Card picture={myPortrait}
     name='Ina Kristine Thoresen'
     family='Husbond and three children'
-    location='Oslo, Norway' />
+    location='Oslo, Norway'
+    git='https://www.linkedin.com/in/ina-kristine-thoresen/' />
       
     <HomeTitle theme='My key skills:' />
     <Paragraph text='• Vocational education in both graphic design and frontend developmen' />

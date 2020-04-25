@@ -4,13 +4,14 @@
 .card{
     margin-top: 30px;
     display: grid;
+    grid-template-rows: [row1-start] 260px [row2-start] 48px;
     padding-bottom: 20px;
     width: 100%;
     &__picture{
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 1;
-        grid-row-end: 2;
+        grid-row-end: 3;
         width: 250px;
         @include image-shaddow;
     }
@@ -26,7 +27,19 @@
         &--last{
             margin-bottom: 10px;
         }
-
+    }
+        &__links{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            align-self: end;
+            padding-left: 1em;
+            margin: 0;
+    }
+    &__link{
+        @include link-font;
+        margin-left: 5px;
     }
     
 }
