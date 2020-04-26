@@ -5,8 +5,7 @@ const paragraph = (props) => {
 
     return (
         <div className='paragraph'>
-            
-           <p className='paragraph__text'>{ text }</p>
+            <p className='paragraph__text'>{text}</p>
         </div>
     )
 }

@@ -36,8 +36,6 @@ export default function home(props) {
       <Content when='Corel Draw' what='PC' where='Basic' />
       <Content when='Microsoft Office' what='Mac and PC' where='medium' />
       <Content when='Open Office' what='Mac and PC' where='medium' />
-
-
     </div>
   );
 }

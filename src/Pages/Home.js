@@ -12,7 +12,6 @@ import hubble from '../images/Hubble-500.png';
 
 export default function home(props) {
 
-
   return (
     <div>
       <HomeTitle theme='My Work:' />
@@ -96,8 +95,6 @@ export default function home(props) {
         time='3 weeks'
         jobSpecific='https://framenden.no/Hubble/'
         git='' />
-
-
     </div>
   );
 }

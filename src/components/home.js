@@ -12,8 +12,8 @@ const Home = (props) => {
                 <p className='home__description'><b>Description: </b>{description}</p>
                 <p className='home__responsive'><b>Responsive: </b>{responsive}</p>
                 <p className='home__time'><b>Production time: </b>{time}</p>
-
             </div>
+
             <div className='home__links'>
                 <div className='divider__short'></div>
                 <a className='home__gitlink' href={git}>Go to GitHub</a>
